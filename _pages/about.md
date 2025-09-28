@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: single
 title: "Chenhaoyue Wang"
 permalink: /
 author_profile: true
