@@ -10,7 +10,7 @@ author_profile: true
 - Large-scale MD/AIMD revealed **strain-induced crystal–amorphous transitions**.  
 - Identified ~**2% critical strain** affecting thermal/mechanical reliability.  
 
-### Transport in Flat-Band Materials (UCLA, 2023– )
+### Transport in Flat-Band Materials (UCLA, 2023–Present )
 - Built tight-binding + time-dependent models (Python/MATLAB).  
 - Simulated **charge & spin transport** in graphene, Kagome, Lieb lattices under external fields.  
 - Explored **strain engineering effects** on conductivity.  
