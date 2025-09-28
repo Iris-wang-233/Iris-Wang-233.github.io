@@ -9,14 +9,18 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+title: "Chenhaoyue Wang"
+name: "Chenhaoyue Wang"
+email: "wchy97@g.ucla.edu"
+description: "Ph.D. candidate in Materials Science & Engineering, UCLA"
+repository: "Iris-wang-233/Iris-Wang-233.github.io"
+
+name: "Chenhaoyue Wang"
+avatar: "/images/headshot.jpg"   # upload your photo into /images/
+bio: "Ph.D. candidate in Materials Science & Engineering, UCLA. Research in batteries, DFT/MD simulations, and transport physics."
+location: "Los Angeles, CA"
+email: "wchy97@g.ucla.edu"
+github: "Iris-wang-233"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
