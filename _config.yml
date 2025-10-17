@@ -1,26 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
+# =====================================================
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title: "Chenhaoyue Wang"
-name: "Chenhaoyue Wang"
-email: "wchy97@g.ucla.edu"
+# =====================================================
+locale: "en-US"
+title: "Chenhaoyue (Iris) Wang"
 description: "Ph.D. candidate in Materials Science & Engineering, UCLA"
-repository: "Iris-wang-233/Iris-Wang-233.github.io"
+repository: "iris-wang-233/iris-wang-233.github.io"
+url: "https://iris-wang-233.github.io"
+baseurl: ""     # leave blank for user sites
 
-name: "Chenhaoyue Wang"
-avatar: "/images/profile.jpg"
-bio: "Ph.D. candidate in Materials Science & Engineering, UCLA. Research in batteries, DFT/MD simulations, and transport physics."
-location: "Los Angeles, CA"
-email: "wchy97@g.ucla.edu"
-github: "Iris-wang-233"
+# =====================================================
+# Author / Profile Info
+# =====================================================
+author:
+  name: "Chenhaoyue (Iris) Wang"
+  avatar: "/images/profile.jpg"   # 👈 make sure the image is in /images/profile.jpg
+  bio: "Ph.D. candidate in Materials Science & Engineering at UCLA. Research in batteries, DFT/MD simulations, and transport physics."
+  location: "Los Angeles, CA"
+  email: "wchy9_nt@outlook.com"
+  links:
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/iris-wang-233"
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/your-linkedin-id/"
+    - label: Email
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:wchy9_nt@outlook.com"
+
+# =====================================================
+# Theme Settings
+# =====================================================
+remote_theme: "mmistakes/minimal-mistakes"
+site_theme: "default"  # optional for academicpages
+markdown: kramdown
+highlighter: rouge
+
+# =====================================================
+# Plugins
+# =====================================================
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# =====================================================
+# Collections (optional if you plan to use projects)
+# =====================================================
+collections:
+  projects:
+    output: true
+    permalink: /research/:name/
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
