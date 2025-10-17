@@ -1,9 +1,20 @@
 ---
 layout: single
-title: "Chenhaoyue(Iris) Wang"
+title: "About"
 permalink: /about/
 author_profile: true
 ---
+
+Hello! I'm Chenhaoyue (Iris) Wang. 
+Ph.D. candidate in MSE at UCLA (Prof. Banerjee). I work on computational materials for 2D/1D nanomaterial systems (Kagome, Lieb, graphene), **spin transport** (Rashba/Kane–Mele; Kubo/NEASS), and I previously worked on **Li-ion batteries** (EIS/CV, SEI, CVD).
+
+### Interests
+- DFT (Quantum ESPRESSO, SPARC), MD (LAMMPS), tight-binding solvers
+- Time-resolved spin conductivity; Bloch oscillations
+- Interfaces & ion transport in energy materials
+
+### Target Roles
+R&D in **computational materials** or **battery engineering**, bridging first-principles models to devices.
 Hi, I’m **Chenhaoyue Wang**,  
 Ph.D. candidate in Materials Science & Engineering at UCLA.  
 
