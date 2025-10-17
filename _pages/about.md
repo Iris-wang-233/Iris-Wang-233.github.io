@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Chenhaoyue Wang"
-permalink: /
+title: "About"
+permalink: /about/
 author_profile: true
 ---
 Hi, I’m **Chenhaoyue Wang**,  
