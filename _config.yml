@@ -3,7 +3,7 @@
 # =====================================================
 locale: "en-US"
 title: "Chenhaoyue (Iris) Wang"
-description: "Ph.D. candidate in Materials Science & Engineering, UCLA"
+description: "Computational Materials • DFT/MD • Spin Transport • Batteries"
 repository: "iris-wang-233/iris-wang-233.github.io"
 url: "https://iris-wang-233.github.io"
 baseurl: ""     # leave blank for user sites
@@ -14,19 +14,21 @@ baseurl: ""     # leave blank for user sites
 author:
   name: "Chenhaoyue (Iris) Wang"
   avatar: "/images/profile.jpg"   # 👈 make sure the image is in /images/profile.jpg
-  bio: "Ph.D. candidate in Materials Science & Engineering at UCLA. Research in batteries, DFT/MD simulations, and transport physics."
+  bio: "Ph.D. candidate, UCLA MSE. Bridging computational modeling and experimental batteries. DFT/MD, Kagome lattices, spin transport."
   location: "Los Angeles, CA"
-  email: "wchy9_nt@outlook.com"
   links:
     - label: GitHub
       icon: "fab fa-fw fa-github"
       url: "https://github.com/iris-wang-233"
     - label: LinkedIn
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-linkedin-id/"
+      url: "www.linkedin.com/in/chenhaoyue-wang"
+    - label: Google Scholar
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
     - label: Email
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:wchy9_nt@outlook.com"
+      url: "mailto:wchy_nt@outlook.com"
 
 # =====================================================
 # Theme Settings
