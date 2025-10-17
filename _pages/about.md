@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "About"
+title: "Chenhaoyue(Iris) Wang"
 permalink: /about/
 author_profile: true
 ---
