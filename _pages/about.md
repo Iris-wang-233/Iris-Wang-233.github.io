@@ -1,32 +1,26 @@
 ---
 layout: single
-title: "About"
+title: "About Me"
 permalink: /about/
 author_profile: true
+classes: wide
 ---
 
-Hello! I'm Chenhaoyue (Iris) Wang. 
-Ph.D. candidate in MSE at UCLA (Prof. Banerjee). I work on computational materials for 2D/1D nanomaterial systems (Kagome, Lieb, graphene), **spin transport** (Rashba/Kane–Mele; Kubo/NEASS), and I previously worked on **Li-ion batteries** (EIS/CV, SEI, CVD).
+### 👋 Who I Am
+I'm **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in Materials Science & Engineering at UCLA.  
+My research bridges **quantum modeling**, **molecular dynamics**, and **energy materials design**.  
+I focus on **flat-band physics**, **spin transport**, and **strain-induced transitions** in low-dimensional materials such as Kagome lattices and graphene analogs.
 
-### Interests
-- DFT (Quantum ESPRESSO, SPARC), MD (LAMMPS), tight-binding solvers
-- Time-resolved spin conductivity; Bloch oscillations
-- Interfaces & ion transport in energy materials
+Previously, I worked on **graphene-shell lithium-ion batteries**, leading synthesis and electrochemical testing projects during my undergraduate years.
 
-### Target Roles
-R&D in **computational materials** or **battery engineering**, bridging first-principles models to devices.
-Hi, I’m **Chenhaoyue Wang**,  
-Ph.D. candidate in Materials Science & Engineering at UCLA.  
+### 🌱 My Passions
+- **Computation:** DFT (Quantum ESPRESSO, SPARC), MD (LAMMPS), tight-binding solvers in Python.  
+- **Physics:** Spin conductivity, Berry phase polarization, topological transitions.  
+- **Energy:** Interfacial ion transport, solid-state electrolytes.
 
-My research combines **lithium-ion battery experiments** (cell assembly, CVD, EIS/CV testing) with  
-**computational modeling** (DFT, MD, transport simulations).  
+### 🧗‍♀️ Beyond Research
+I love exploring the outdoors—**bouldering**, **tennis**, **horse riding**, and **trail hiking**.  
+Traveling inspires me to see science from new perspectives.
 
-**Research areas:**
-- Silicon Kagome lattices — phase transitions & reliability
-- Flat-band materials — spin & charge transport
-- Nanotubes & twisted 2D vdW systems
-- Graphene shells for Li-ion anodes
-
-📄 [Resume (1-page)](/files/Chenhaoyue_Wang_Resume.pdf)  
-📄 [Academic CV](/files/Chenhaoyue_Wang_CV.pdf)  
-📫 wchy97@g.ucla.edu
+### 🎯 What I’m Looking For
+I’m seeking opportunities in **computational materials**, **semiconductor R&D**, or **battery technology**, where I can blend simulation and experimentation to solve practical problems.
