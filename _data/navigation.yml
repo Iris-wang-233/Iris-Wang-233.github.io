@@ -1,13 +1,15 @@
 main:
-  - title: "Home"
-    url: /
+  - title: "About"
+    url: /about/
   - title: "Research"
     url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Posters & Talks"
-    url: /talks/
+  - title: "Posters"
+    url: /posters/
   - title: "CV"
     url: /cv/
+  - title: "Resume"
+    url: /resume/
   - title: "Contact"
     url: /contact/
+#- title: "Gallery"
+#    url: /gallery/
