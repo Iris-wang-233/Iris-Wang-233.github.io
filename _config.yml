@@ -1,11 +1,11 @@
 author:
   name: "Chenhaoyue (Iris) Wang"
-  avatar: "images/profile.jpg"
+  avatar: "https://iris-wang-233.github.io/images/profile.jpg"
   bio: "Ph.D. candidate in Materials Science & Engineering at UCLA. Research in computational materials and battery experiments."
   location: "Los Angeles, CA"
 
   email: "wchy_nt@outlook.com"
-  github: "https://iris-wang-233.github.io/"
+  github: "https://iris-wang-233.github.io"
   linkedin: "chenhaoyue-wang"
 #  googlescholar: "https://scholar.google.com/"
 #  orcid: "https://orcid.org/"
