@@ -1,28 +1,15 @@
 author:
   name: "Chenhaoyue (Iris) Wang"
-  avatar: "/images/profile.jpg"   # path to your photo
+  avatar: "/images/profile.jpg"
   bio: "Ph.D. candidate in Materials Science & Engineering at UCLA. Research in computational materials and battery experiments."
   location: "Los Angeles, CA"
 
-  links:
-    - label: Website
-      icon: "fas fa-fw fa-globe"
-      url: "https://iris-wang-233.github.io"
-    - label: Email
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:wchy_nt@outlook.com"
-    - label: Google Scholar
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/"
-    - label: GitHub
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/iris-wang-233"
-    - label: LinkedIn
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/chenhaoyue-wang"
-    - label: ORCID
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/"
+  email: "wchy_nt@outlook.com"
+  github: "iris-wang-233"
+  linkedin: "chenhaoyue-wang"
+#  googlescholar: "https://scholar.google.com/"
+#  orcid: "https://orcid.org/"
+
 # =====================================================
 # Theme Settings
 # =====================================================
