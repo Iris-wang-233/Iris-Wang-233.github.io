@@ -12,3 +12,46 @@
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+/* ===== Feature Cards (About / Research / Posters) ===== */
+.feature__wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature__item {
+  background-color: #f9f9f9;
+  border-radius: 14px;
+  padding: 1.2rem 1.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+  max-width: 260px;
+}
+
+.feature__item:hover {
+  background-color: #fff0eb; /* light warm tone */
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature__item h3 a {
+  color: #8B0000; /* deep red tone for headings */
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.feature__item h3 a:hover {
+  color: #EFB73E; /* warm gold hover */
+}
+
+.feature__item p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
