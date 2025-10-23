@@ -1,1 +1,14 @@
+.feature__item {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
 
+.feature__item:hover {
+  background-color: #fff7e6; /* light UCLA gold tone */
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
