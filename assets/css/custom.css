@@ -13,7 +13,7 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* ===== Feature Cards (About / Research / Posters) ===== */
+/* ===== Homepage Feature Cards (About / Research / Posters) ===== */
 .feature__wrapper {
   display: flex;
   justify-content: space-around;
@@ -23,7 +23,7 @@
 }
 
 .feature__item {
-  background-color: #f9f9f9;
+  background-color: #FAFAFA;
   border-radius: 14px;
   padding: 1.2rem 1.8rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -33,24 +33,26 @@
 }
 
 .feature__item:hover {
-  background-color: #fff0eb; /* light warm tone */
+  background-color: #fff3e0; /* soft orange hover */
   transform: translateY(-6px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings for About/Research/Posters */
 .feature__item h3 a {
-  color: #8B0000; /* deep red tone for headings */
+  color: #8B0000; /* main deep red */
   text-decoration: none;
   font-weight: 700;
   transition: color 0.3s ease;
 }
 
 .feature__item h3 a:hover {
-  color: #EFB73E; /* warm gold hover */
+  color: #EFB73E; /* accent orange hover */
 }
 
+/* Descriptions below the titles */
 .feature__item p {
-  color: #333;
+  color: #1D3557; /* dark blue text for contrast */
   font-size: 0.95rem;
   line-height: 1.6;
   margin-top: 0.5rem;
