@@ -12,8 +12,19 @@ Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science &
 My research bridges **quantum theory, first-principles simulations, and data-driven modeling** to understand and design next-generation low-dimensional materials.
 
 ---
+## Research Focus
 
-### 🧠 Research Focus
+My Ph.D. work (4+ years) explores the electronic, magnetic, polarization, thermal, and transport properties of novel 2D and 1D materials using multi-scale computational methods, including:
+
+- DFT / DFPT / AIMD / MD simulations for structure, energetics, and dynamics  
+- Time-dependent Schrödinger equation and scattering-matrix models for electronic and spin transport  
+- Python-based tight-binding modeling, spin current simulations, and Bloch oscillation analysis  
+- Machine learning to correlate geometry and physical properties, such as:  
+  - SiKL buckling height vs. flat-band width  
+  - Strain vs. phase transition temperature  
+  - Doping/vacancy vs. magnetic behavior in 1D nanotubes
+    
+### Research Focus
 My Ph.D. work (4+ years) explores the **electronic, magnetic, polarization, thermal, and transport** properties of novel **2D and 1D materials** using **multi-scale computational methods**, including:
 
 - **DFT / DFPT / AIMD / MD simulations** for structure, energetics, and dynamics  
