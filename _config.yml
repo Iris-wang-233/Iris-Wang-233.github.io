@@ -1,3 +1,13 @@
+# =====================================================
+# Site Identity
+# =====================================================
+title: "Welcome"
+name: "Chenhaoyue (Iris) Wang"
+description: "Ph.D. Candidate at UCLA — Computational Materials, DFT/MD, Spin Transport, Batteries"
+url: "https://iris-wang-233.github.io"
+baseurl: ""
+minimal_mistakes_skin: "air" 
+
 author:
   name: "Chenhaoyue (Iris) Wang"
   avatar: "https://iris-wang-233.github.io/images/profile.jpg"
