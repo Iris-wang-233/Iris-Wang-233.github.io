@@ -4,7 +4,7 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header:
-  overlay_color: "#faf6f0"    # light cream
+  overlay_color: "#f2f6fa"
   overlay_filter: 0
   overlay_image: /images/banner.jpg  # optional banner if you have one
 ---
