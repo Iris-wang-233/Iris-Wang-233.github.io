@@ -4,8 +4,8 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header:
-  overlay_color: "#000"
-  overlay_filter: 0.25
+  overlay_color: "#faf6f0"    # light cream
+  overlay_filter: 0
   overlay_image: /images/banner.jpg  # optional banner if you have one
 ---
 <div align="center">
