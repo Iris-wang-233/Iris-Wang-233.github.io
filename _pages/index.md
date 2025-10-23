@@ -4,8 +4,8 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header:
-  overlay_color: "#ffd7cc"   # light coral red
-  overlay_filter: 0
+  overlay_color: "#8B0000"   # ← this exact deep red from your image
+  overlay_filter: 0.2
 ---
 
 Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA**.  
