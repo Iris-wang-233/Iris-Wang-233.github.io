@@ -4,15 +4,18 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header:
-  overlay_color: "#f2f6fa"
+  overlay_color: "#fce5cd"   # light peach-orange
   overlay_filter: 0
   overlay_image: /images/banner.jpg  # optional banner if you have one
 ---
+
 <div align="center">
 
-  👋 Hi, I’m **Chenhaoyue (Iris) Wang**
-_Ph.D. candidate in Materials Science & Engineering at UCLA_ 
-I study **computational materials**—from **DFT/MD simulations of 2D/1D systems** to **spin transport and flat-band physics**—and I also have hands-on **battery research** experience from my undergraduate years.
+# 👋 Hi, I’m **Chenhaoyue (Iris) Wang**
+
+_Ph.D. candidate in Materials Science & Engineering at UCLA_
+
+I study computational materials from **DFT/MD simulations of 2D/1D systems** to **spin transport and flat-band physics**—and I also have hands-on **battery research** experience from my undergraduate years.
 
 I'm passionate about connecting **atomic-scale insights** with **real-world devices**, whether through **R&D** in batteries, semiconductors, or next-generation materials.
 
