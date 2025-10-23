@@ -4,32 +4,53 @@ title: "Welcome"
 permalink: /
 author_profile: true
 header:
-  overlay_color: "#fce5cd"   # light peach-orange
-  overlay_filter: 0
-  overlay_image: /images/banner.jpg  # optional banner if you have one
+  overlay_color: "#eebc4f"   # warm UCLA gold-orange
+  overlay_filter: 0.15
+  overlay_image: /images/banner_ucla.jpg
 ---
 
 <div align="center">
 
-# 👋 Hi, I’m **Chenhaoyue (Iris) Wang**
+# Welcome!
 
-_Ph.D. candidate in Materials Science & Engineering at UCLA_
+Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA**.  
+My research bridges **quantum theory, first-principles simulations, and data-driven modeling** to understand and design next-generation low-dimensional materials.
 
-I study computational materials from **DFT/MD simulations of 2D/1D systems** to **spin transport and flat-band physics**—and I also have hands-on **battery research** experience from my undergraduate years.
+---
 
-I'm passionate about connecting **atomic-scale insights** with **real-world devices**, whether through **R&D** in batteries, semiconductors, or next-generation materials.
+### Research Focus
 
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <h3><a href="/about/">About Me →</a></h3>
-    <p>Learn about my journey, interests, and hobbies like climbing and travel.</p>
-  </div>
-  <div class="feature__item">
-    <h3><a href="/research/">Research →</a></h3>
-    <p>Explore my projects on Kagome lattices, SiKL, and NbSe₂ strain dynamics.</p>
-  </div>
-  <div class="feature__item">
-    <h3><a href="/posters/">Posters →</a></h3>
-    <p>View my research posters presented at conferences.</p>
-  </div>
+My Ph.D. work (4+ years) explores the **electronic, magnetic, polarization, thermal, and transport** properties of novel **2D and 1D materials** using **multi-scale computational methods** such as:
+
+- **DFT / DFPT / AIMD / MD simulations** for structural, energetic, and dynamic properties.  
+- **Time-dependent Schrödinger equation and scattering-matrix models** to study **electronic and spin transport**.  
+- **Python-based tight-binding modeling**, **spin current simulations**, and **Bloch oscillation analysis** (automated code + physical modeling).  
+- **Machine learning** frameworks to link **geometry and physical behavior**, e.g.:  
+  - predicting SiKL buckling height vs. flat-band width,  
+  - strain vs. phase transition temperature,  
+  - doping/vacancy vs. magnetic properties in 1D nanotubes.
+
+---
+
+### Experimental Background
+
+Before my Ph.D., I spent 3+ years in a **battery research lab**, focusing on:
+- **Anode composite optimization** and **electrode design**,  
+- **Electrochemical testing** (cycling, rate, EIS, CV),  
+- **Sample synthesis** (CVD growth), and  
+- **Characterization** (SEM, TGA).
+
+This experience gave me a hands-on understanding of how simulation insights can connect directly to real device performance.
+
+> ⚡ *Li-ion batteries are indeed a class of solid-state batteries when their electrolyte is solid rather than liquid.*
+
+---
+
+### Research Vision
+
+I’m passionate about connecting **atomic-scale insights** with **real-world applications** — from **semiconductors and spintronic devices** to **batteries and energy materials** — bridging theory, computation, and experiment.
+
+---
+
 </div>
+
