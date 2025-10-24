@@ -8,8 +8,8 @@ header:
   overlay_filter: 0.2
 ---
 
-## Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA**.  
-## My research bridges **quantum theory, first-principles simulations, and data-driven modeling** to understand and design next-generation low-dimensional materials.
+##Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA**. 
+##My research bridges **quantum theory, first-principles simulations, and data-driven modeling** to understand and design next-generation low-dimensional materials.
 
 ---
 ## Research Focus
