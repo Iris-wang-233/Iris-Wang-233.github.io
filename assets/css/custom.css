@@ -51,7 +51,7 @@ a:hover {
 /* Wrapper uses GRID so each card has a fixed column */
 .feature__wrapper{
   display:grid;
-  grid-template-columns: repeat(3, minmax(240px, 1fr)); /* 3 fixed slots */
+  grid-template-columns: repeat(3, minmax(480px, 1fr)); /* 3 fixed slots */
   gap: 24px;
   max-width: 960px;
   margin: 2.5rem auto;
