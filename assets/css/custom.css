@@ -48,93 +48,49 @@ a:hover {
   font-weight: 600;
 }
 
-/* ============================================================
-   FEATURE CARDS
-   ============================================================ */
-
-.feature__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;         /* ensures equal height alignment */
-  flex-wrap: wrap;              /* prevents overflow and overlap */
-  gap: 2rem;                    /* consistent spacing between cards */
-  margin: 3rem auto;
-  max-width: 900px;
+/* Wrapper uses GRID so each card has a fixed column */
+.feature__wrapper{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(240px, 1fr)); /* 3 fixed slots */
+  gap: 24px;
+  max-width: 960px;
+  margin: 2.5rem auto;
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
-/* Each card */
-.feature__item {
-  flex: 0 1 260px;              /* each card flexible but bounded */
-  width: 260px;
-  background-color: #FFF8E1;
-  border-radius: 14px;
-  padding: 1.5rem 1.2rem;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  transition: all 0.3s ease;
-  min-height: 180px;
-  box-sizing: border-box;
-  position: relative;           /* ensure no overlapping due to float or transform */
+/* Cards */
+.feature__item{
+  background:#FFF8E1;
+  border-radius:14px;
+  padding:1.25rem 1rem;
+  box-shadow:0 3px 8px rgba(0,0,0,.08);
+  text-align:center;
+  min-height:180px;
+  box-sizing:border-box;
+  position:relative;       /* safe hover */
+  transition:transform .25s ease, box-shadow .25s ease, background .25s ease;
+}
+.feature__item h3 a{ color:#8B0000; font-weight:700; font-size:1.05rem; }
+.feature__item p{ color:#1D1D1D; font-size:.92rem; line-height:1.5; margin-top:.5rem; }
+.feature__item:hover{ transform:translateY(-4px); box-shadow:0 6px 14px rgba(0,0,0,.14); background:#8B0000; }
+.feature__item:hover h3 a, .feature__item:hover p{ color:#fff; }
+
+/* Explicit positions (desktop) */
+.card--about   { grid-column: 1; }
+.card--research{ grid-column: 2; }
+.card--posters { grid-column: 3; }
+
+/* Tablet: 2 per row (About | Research) on first row, Posters below */
+@media (max-width: 900px){
+  .feature__wrapper{ grid-template-columns: repeat(2, minmax(240px, 1fr)); }
+  .card--about   { grid-column: 1; }
+  .card--research{ grid-column: 2; }
+  .card--posters { grid-column: 1 / span 2; } /* full-width row */
 }
 
-/* Hover effect */
-.feature__item:hover {
-  background-color: #8B0000;
-  transform: translateY(-6px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
-  z-index: 2;                   /* keeps hover card on top */
+/* Mobile: 1 per row */
+@media (max-width: 600px){
+  .feature__wrapper{ grid-template-columns: 1fr; }
+  .card--about, .card--research, .card--posters { grid-column: 1; }
 }
-
-.feature__item:hover h3 a,
-.feature__item:hover p {
-  color: #FFFFFF;
-}
-
-/* Title */
-.feature__item h3 a {
-  color: #8B0000;
-  font-weight: 700;
-  font-size: 1.05rem;
-  display: inline-block;
-  transition: color 0.3s ease;
-}
-
-/* Text */
-.feature__item p {
-  color: #1D1D1D;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin-top: 0.5rem;
-}
-
-/* ============================================================
-   RESPONSIVE FIXES
-   ============================================================ */
-
-@media (max-width: 900px) {
-  .feature__wrapper {
-    gap: 1.5rem;
-  }
-  .feature__item {
-    flex: 0 1 45%;
-    width: 45%;
-  }
-}
-
-@media (max-width: 600px) {
-  .feature__item {
-    flex: 0 1 100%;
-    width: 100%;
-  }
-}
-
-
-
-
-
-
-
-
-
