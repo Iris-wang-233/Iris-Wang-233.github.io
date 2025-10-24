@@ -1,17 +1,18 @@
 /* ===== Homepage Intro Section ===== */
 .intro-text {
-  font-size: 1.25rem;         /* larger than normal text */
-  line-height: 1.9;           /* nice breathing room */
-  color: #1D3557;             /* dark blue for readability */
-  max-width: 850px;           /* keeps it from stretching too wide */
-  margin: 1.5rem auto 2rem;
-  text-align: left;           /* left-align text */
+  font-size: 1.4rem;            /* larger text */
+  line-height: 2;               /* nice vertical spacing */
+  color: #1D3557;               /* dark blue for readability */
+  max-width: 850px;
+  margin: 2rem auto 2.5rem;
+  text-align: left;
 }
 
 .intro-text strong {
-  color: #8B0000;             /* deep red for emphasis (matches header) */
+  color: #8B0000;               /* deep red for emphasis */
   font-weight: 700;
 }
+
 
 /* ====== Fix Homepage Feature Card Layout ====== */
 
@@ -64,4 +65,33 @@
   line-height: 1.6;
   margin-top: 0.5rem;
 }
+
+/* ===== Override Minimal Mistakes Default Feature Layout ===== */
+.feature__wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  flex-wrap: wrap !important;
+  gap: 2rem !important;
+  margin: 3rem auto !important;
+  max-width: 1000px;
+}
+
+.feature__item {
+  flex: 1 1 280px !important;
+  background-color: #FAFAFA;
+  border-radius: 14px;
+  padding: 1.4rem 1.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+  min-height: 220px;
+}
+
+.feature__item:hover {
+  background-color: #fff3e0;
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
 
