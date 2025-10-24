@@ -53,58 +53,74 @@ a:hover {
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2rem;                   /* adds visible space between cards */
   margin: 3rem auto;
-  max-width: 1000px;
+  max-width: 850px;            /* narrower overall width */
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
 /* Individual cards */
 .feature__item {
-  flex: 1 1 300px;
-  background-color: #FFF8E1;   /* light yellow (warm, soft) */
+  flex: 1 1 220px;             /* much narrower */
+  max-width: 240px;
+  background-color: #FFF8E1;   /* soft yellow */
   border-radius: 14px;
-  padding: 1.6rem 2rem;
+  padding: 1.2rem 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
   text-align: center;
-  min-height: 220px;
+  transition: all 0.3s ease;
+  min-height: 180px;
 }
 
 /* Hover effect */
 .feature__item:hover {
-  background-color: #F9E79F;   /* slightly darker yellow when hovered */
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background-color: #FAD7A0;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
 }
 
 /* Title links */
 .feature__item h3 a {
-  color: #8B0000;              /* deep red (same as welcome) */
+  color: #8B0000;              /* deep red (same as Welcome) */
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.25rem;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  font-size: 1.05rem;
+  display: inline-block;
+  transition: color 0.3s ease;
 }
 
-/* Hover title (text slightly brighter) */
+/* Hover and click behavior */
 .feature__item h3 a:hover {
   color: #B71C1C;
 }
-
-/* When actively clicked */
 .feature__item h3 a:active {
-  color: #FFFFFF;              /* turns white when clicked */
+  color: #FFFFFF;
 }
 
-/* Card description text */
+/* Description text */
 .feature__item p {
-  color: #2C2C2C;              /* neutral dark gray text */
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-top: 0.6rem;
+  color: #1D1D1D;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
 }
+
+/* Responsive adjustments */
+@media (max-width: 850px) {
+  .feature__item {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 550px) {
+  .feature__item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
 
 
 
