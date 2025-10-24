@@ -7,13 +7,11 @@ header:
   overlay_color: "#8B0000"   # ← this exact deep red from your image
   overlay_filter: 0.2
 ---
-<div class="intro-text">
-
-**Hi, I’m Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA.**  
+{: .intro-text }
+Hi, I’m **Chenhaoyue (Iris) Wang**, a Ph.D. candidate in **Materials Science & Engineering at UCLA**.  
 
 My research bridges **quantum theory, first-principles simulations, and data-driven modeling** to understand and design next-generation low-dimensional materials.
 
-</div>
 ---
 ## Research Focus
 My Ph.D. work (4+ years) explores the electronic, magnetic, polarization, thermal, and transport properties of novel 2D and 1D materials using multi-scale computational methods, including:
