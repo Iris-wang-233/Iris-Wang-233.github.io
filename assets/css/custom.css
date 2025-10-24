@@ -94,3 +94,58 @@ a:hover {
   .feature__wrapper{ grid-template-columns: 1fr; }
   .card--about, .card--research, .card--posters { grid-column: 1; }
 }
+
+/* ===== Scoped home cards (no theme conflicts) ===== */
+.home-cards{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  gap: 24px;
+  max-width: 960px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.home-card{
+  display: block;                 /* full-card clickable */
+  background: #FFF8E1;
+  border-radius: 14px;
+  padding: 1.25rem 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,.08);
+  text-align: center;
+  min-height: 180px;
+  text-decoration: none;
+  color: #1D1D1D;
+  transition: transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+  box-sizing: border-box;
+}
+
+.home-card h3{ 
+  margin: 0;
+  color: #8B0000; 
+  font-weight: 700; 
+  font-size: 1.05rem;
+}
+
+.home-card p{ 
+  margin: .6rem 0 0; 
+  font-size: .92rem; 
+  line-height: 1.5; 
+}
+
+.home-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.14);
+  background: #8B0000;
+  color: #fff;
+}
+.home-card:hover h3{ color: #fff; }
+
+/* Responsive */
+@media (max-width: 900px){
+  .home-cards{ grid-template-columns: repeat(2, minmax(220px, 1fr)); }
+}
+@media (max-width: 600px){
+  .home-cards{ grid-template-columns: 1fr; }
+}
+
