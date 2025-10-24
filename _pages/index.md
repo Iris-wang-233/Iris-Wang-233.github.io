@@ -40,23 +40,23 @@ This experience gave me a solid background of manufactring and how lab data test
 I’m passionate about connecting atomic-scale simulations and quantum physics models with real-world applications and devices, especially for semiconductors and spintronic devices to*batteries and next-generation new energy material, bridging theoretic models, computations, and experiments.
 
 ---
-<!-- Home cards -->
-<div class="home-cards" role="list">
-  <a class="home-card" href="/about/" role="listitem">
-    <h3>About Me →</h3>
+<div class="feature__wrapper">
+  <div class="feature__item card--about">
+    <h3><a href="/about/">About Me →</a></h3>
     <p>Academic background,<br>research interests,<br>and hobbies beyond work.</p>
-  </a>
+  </div>
 
-  <a class="home-card" href="/research/" role="listitem">
-    <h3>Research →</h3>
+  <div class="feature__item card--research">
+    <h3><a href="/research/">Research →</a></h3>
     <p>2D and 1D materials,<br>spin transport,<br>and machine learning modeling.</p>
-  </a>
+  </div>
 
-  <a class="home-card" href="/posters/" role="listitem">
-    <h3>Posters →</h3>
+  <div class="feature__item card--posters">
+    <h3><a href="/posters/">Posters →</a></h3>
     <p>Selected conference<br>posters and presentations.</p>
-  </a>
+  </div>
 </div>
+
 
 
 
