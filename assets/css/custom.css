@@ -4,7 +4,7 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #1A1A1A;              /* unified dark text color */
+  color: #1A1A1A;              
   line-height: 1.7;
   font-size: 1rem;
   background-color: #ffffff;
@@ -42,47 +42,55 @@ a:hover {
 }
 
 .intro-text strong {
-  color: inherit;      /* no color change */
+  color: inherit;
   font-weight: 600;
 }
 
-/* ====== FEATURE CARD SECTION (Red text + Light Yellow background) ====== */
+/* ============================================================
+   FEATURE CARD SECTION (Red text + Light Yellow background)
+   ============================================================ */
 
 .feature__wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;  /* evenly distributed */
   align-items: stretch;
-  flex-wrap: wrap;
-  gap: 2rem;                   /* adds visible space between cards */
+  flex-wrap: wrap;                /* allows wrapping properly */
+  gap: 1.5rem;                    /* consistent spacing */
   margin: 3rem auto;
-  max-width: 850px;            /* narrower overall width */
+  max-width: 900px;               /* overall section width */
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
 /* Individual cards */
 .feature__item {
-  flex: 1 1 220px;             /* much narrower */
-  max-width: 240px;
-  background-color: #FFF8E1;   /* soft yellow */
+  flex: 0 1 200px;                /* fixed narrow width */
+  max-width: 230px;
+  background-color: #FFF8E1;      /* light yellow */
   border-radius: 14px;
   padding: 1.2rem 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: all 0.3s ease;
-  min-height: 180px;
+  min-height: 170px;
+  margin: 0.5rem;                 /* ensures no overlap */
 }
 
 /* Hover effect */
 .feature__item:hover {
-  background-color: #FAD7A0;
+  background-color: #8B0000;      /* deep red */
   transform: translateY(-5px);
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.feature__item:hover h3 a,
+.feature__item:hover p {
+  color: #FFFFFF;                 /* text turns white when hovered */
 }
 
 /* Title links */
 .feature__item h3 a {
-  color: #8B0000;              /* deep red (same as Welcome) */
+  color: #8B0000;                 /* dark red title */
   text-decoration: none;
   font-weight: 700;
   font-size: 1.05rem;
@@ -90,36 +98,37 @@ a:hover {
   transition: color 0.3s ease;
 }
 
-/* Hover and click behavior */
-.feature__item h3 a:hover {
-  color: #B71C1C;
-}
-.feature__item h3 a:active {
-  color: #FFFFFF;
-}
-
 /* Description text */
 .feature__item p {
-  color: #1D1D1D;
+  color: #1D1D1D;                 /* dark text for contrast */
   font-size: 0.9rem;
   line-height: 1.5;
   margin-top: 0.5rem;
+  word-wrap: break-word;
 }
 
-/* Responsive adjustments */
-@media (max-width: 850px) {
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+@media (max-width: 950px) {
+  .feature__wrapper {
+    justify-content: center;
+    gap: 1rem;
+  }
   .feature__item {
-    flex: 1 1 45%;
-    max-width: 45%;
+    flex: 0 1 40%;                /* 2 per row */
+    max-width: 280px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .feature__item {
-    flex: 1 1 100%;
+    flex: 0 1 100%;               /* single column on phones */
     max-width: 100%;
   }
 }
+
 
 
 
