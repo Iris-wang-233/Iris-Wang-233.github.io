@@ -98,9 +98,9 @@ a:hover {
 /* ===== Scoped home cards (no theme conflicts) ===== */
 .home-cards{
   display: grid;
-  grid-template-columns: repeat(3, minmax(240px, 1fr));
-  gap: 24px;
-  max-width: 960px;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));  /* wider cards */
+  gap: 32px;                                             /* more space between them */
+  max-width: 1100px;   
   margin: 2.5rem auto;
   padding: 0 1rem;
   box-sizing: border-box;
