@@ -46,9 +46,7 @@ a:hover {
   font-weight: 600;
 }
 
-/* ============================================================
-   FEATURE CARD SECTION (ABOUT / RESEARCH / POSTERS)
-   ============================================================ */
+/* ====== FEATURE CARD SECTION (Red text + Light Yellow background) ====== */
 
 .feature__wrapper {
   display: flex;
@@ -62,68 +60,50 @@ a:hover {
   box-sizing: border-box;
 }
 
+/* Individual cards */
 .feature__item {
-  flex: 1 1 160px;
-  background-color: #FAFAFA;
+  flex: 1 1 300px;
+  background-color: #FFF8E1;   /* light yellow (warm, soft) */
   border-radius: 14px;
-  padding: 1.4rem 1.8rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.6rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
   text-align: center;
   min-height: 220px;
 }
 
+/* Hover effect */
 .feature__item:hover {
-  background-color: #F5F5F5;
+  background-color: #F9E79F;   /* slightly darker yellow when hovered */
   transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Card title links */
+/* Title links */
 .feature__item h3 a {
-  color: #1A1A1A;
+  color: #8B0000;              /* deep red (same as welcome) */
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+  font-size: 1.25rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+/* Hover title (text slightly brighter) */
 .feature__item h3 a:hover {
-  color: #5c5c5c;
+  color: #B71C1C;
 }
 
-/* Card description */
+/* When actively clicked */
+.feature__item h3 a:active {
+  color: #FFFFFF;              /* turns white when clicked */
+}
+
+/* Card description text */
 .feature__item p {
-  color: #1A1A1A;
+  color: #2C2C2C;              /* neutral dark gray text */
   font-size: 0.95rem;
   line-height: 1.6;
-  margin-top: 0.5rem;
-}
-
-/* ============================================================
-   RESPONSIVENESS (for tablets & phones)
-   ============================================================ */
-
-@media (max-width: 900px) {
-  .feature__wrapper {
-    gap: 1.5rem;
-  }
-
-  .feature__item {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .intro-text {
-    font-size: 1.35rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .intro-text {
-    font-size: 1.25rem;
-    line-height: 1.6;
-  }
+  margin-top: 0.6rem;
 }
 
 
