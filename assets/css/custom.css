@@ -86,7 +86,7 @@ a:hover {
   .feature__wrapper{ grid-template-columns: repeat(2, minmax(240px, 1fr)); }
   .card--about   { grid-column: 1; }
   .card--research{ grid-column: 2; }
-  .card--posters { grid-column: 1 / span 2; } /* full-width row */
+  .card--posters { grid-column: 3; } /* full-width row */
 }
 
 /* Mobile: 1 per row */
