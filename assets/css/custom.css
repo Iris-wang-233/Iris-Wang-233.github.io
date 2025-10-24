@@ -4,10 +4,12 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #1A1A1A;              
+  color: #1A1A1A;
   line-height: 1.7;
   font-size: 1rem;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 /* Headings */
@@ -46,43 +48,43 @@ a:hover {
   font-weight: 600;
 }
 
-/* ===== Homepage Feature Cards (Red text + Light Yellow background) ===== */
+/* ============================================================
+   FEATURE CARDS
+   ============================================================ */
 
 .feature__wrapper {
   display: flex;
-  justify-content: center;        /* center everything neatly */
-  align-items: flex-start;
-  flex-wrap: wrap;                /* ensures wrapping on small screens */
-  gap: 2rem;                      /* spacing between cards */
+  justify-content: center;
+  align-items: stretch;         /* ensures equal height alignment */
+  flex-wrap: wrap;              /* prevents overflow and overlap */
+  gap: 2rem;                    /* consistent spacing between cards */
   margin: 3rem auto;
-  max-width: 850px;               /* limits total width */
+  max-width: 900px;
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
-/* Individual cards */
+/* Each card */
 .feature__item {
-  flex: 0 0 240px;                /* fixed width (no auto stretch) */
-  width: 240px;                   /* consistent sizing */
-  background-color: #FFF8E1;      /* light yellow background */
+  flex: 0 1 260px;              /* each card flexible but bounded */
+  width: 260px;
+  background-color: #FFF8E1;
   border-radius: 14px;
-  padding: 1.2rem 1rem;
+  padding: 1.5rem 1.2rem;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: all 0.3s ease;
   min-height: 180px;
-}
-
-/* Prevent stacking overlap */
-.feature__item:not(:last-child) {
-  margin-right: 1rem;
+  box-sizing: border-box;
+  position: relative;           /* ensure no overlapping due to float or transform */
 }
 
 /* Hover effect */
 .feature__item:hover {
   background-color: #8B0000;
-  transform: translateY(-5px);
+  transform: translateY(-6px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  z-index: 2;                   /* keeps hover card on top */
 }
 
 .feature__item:hover h3 a,
@@ -90,17 +92,16 @@ a:hover {
   color: #FFFFFF;
 }
 
-/* Card title */
+/* Title */
 .feature__item h3 a {
   color: #8B0000;
-  text-decoration: none;
   font-weight: 700;
   font-size: 1.05rem;
   display: inline-block;
   transition: color 0.3s ease;
 }
 
-/* Card text */
+/* Text */
 .feature__item p {
   color: #1D1D1D;
   font-size: 0.9rem;
@@ -108,23 +109,27 @@ a:hover {
   margin-top: 0.5rem;
 }
 
-/* Responsive fixes */
+/* ============================================================
+   RESPONSIVE FIXES
+   ============================================================ */
+
 @media (max-width: 900px) {
   .feature__wrapper {
     gap: 1.5rem;
   }
   .feature__item {
-    flex: 0 1 40%;               /* 2 per row on tablet */
-    width: 40%;
+    flex: 0 1 45%;
+    width: 45%;
   }
 }
 
 @media (max-width: 600px) {
   .feature__item {
-    flex: 0 1 100%;              /* 1 per row on mobile */
+    flex: 0 1 100%;
     width: 100%;
   }
 }
+
 
 
 
