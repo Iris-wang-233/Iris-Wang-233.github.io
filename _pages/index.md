@@ -40,12 +40,14 @@ This experience gave me a solid background of manufactring and how lab data test
 I’m passionate about connecting atomic-scale simulations and quantum physics models with real-world applications and devices, especially for semiconductors and spintronic devices to*batteries and next-generation new energy material, bridging theoretic models, computations, and experiments.
 
 ---
+<!-- ======= Homepage Feature Cards ======= -->
 <div class="feature__wrapper">
+
   <div class="feature__item">
     <h3><a href="/about/">About Me →</a></h3>
     <p>
-      Academic background, <br>
-      research interests, <br>
+      Academic background,<br>
+      research interests,<br>
       and hobbies beyond work.
     </p>
   </div>
@@ -53,8 +55,8 @@ I’m passionate about connecting atomic-scale simulations and quantum physics m
   <div class="feature__item">
     <h3><a href="/research/">Research →</a></h3>
     <p>
-      2D and 1D materials, <br>
-      spin transport, <br>
+      2D and 1D materials,<br>
+      spin transport,<br>
       and machine learning modeling.
     </p>
   </div>
@@ -62,11 +64,14 @@ I’m passionate about connecting atomic-scale simulations and quantum physics m
   <div class="feature__item">
     <h3><a href="/posters/">Posters →</a></h3>
     <p>
-      Selected conference <br>
+      Selected conference<br>
       posters and presentations.
     </p>
   </div>
+
 </div>
+<!-- ======= End Feature Cards ======= -->
+
 
 
 
