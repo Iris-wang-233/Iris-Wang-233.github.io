@@ -1,59 +1,67 @@
-.feature__item {
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
-  text-align: center;
+/* ===== Homepage Intro Section ===== */
+.intro-text {
+  font-size: 1.25rem;         /* larger than normal text */
+  line-height: 1.9;           /* nice breathing room */
+  color: #1D3557;             /* dark blue for readability */
+  max-width: 850px;           /* keeps it from stretching too wide */
+  margin: 1.5rem auto 2rem;
+  text-align: left;           /* left-align text */
 }
 
-.feature__item:hover {
-  background-color: #fff7e6; /* light UCLA gold tone */
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+.intro-text strong {
+  color: #8B0000;             /* deep red for emphasis (matches header) */
+  font-weight: 700;
 }
 
-/* ===== Homepage Feature Cards (About / Research / Posters) ===== */
+/* ====== Fix Homepage Feature Card Layout ====== */
+
 .feature__wrapper {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-top: 2rem;
+  justify-content: center;       /* center the cards horizontally */
+  align-items: stretch;          /* make all cards equal height */
+  flex-wrap: wrap;               /* wrap to next line on small screens */
+  gap: 2rem;                     /* space between cards */
+  margin: 2rem auto;
+  max-width: 1000px;             /* keeps it from spreading too wide */
 }
 
+/* Individual cards */
 .feature__item {
+  flex: 1 1 260px;               /* flexible width but minimum 260px */
   background-color: #FAFAFA;
   border-radius: 14px;
   padding: 1.2rem 1.8rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   text-align: center;
-  max-width: 260px;
+  max-width: 300px;
+  min-height: 200px;             /* keeps them uniform height */
 }
 
 .feature__item:hover {
-  background-color: #fff3e0; /* soft orange hover */
+  background-color: #fff3e0;
   transform: translateY(-6px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
-/* Headings for About/Research/Posters */
+/* Card titles */
 .feature__item h3 a {
-  color: #8B0000; /* main deep red */
+  color: #8B0000;
   text-decoration: none;
   font-weight: 700;
+  font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
 .feature__item h3 a:hover {
-  color: #EFB73E; /* accent orange hover */
+  color: #EFB73E;
 }
 
-/* Descriptions below the titles */
+/* Card text */
 .feature__item p {
-  color: #1D3557; /* dark blue text for contrast */
+  color: #1D3557;
   font-size: 0.95rem;
   line-height: 1.6;
   margin-top: 0.5rem;
 }
+
