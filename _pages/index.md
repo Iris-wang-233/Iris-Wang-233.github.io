@@ -43,18 +43,30 @@ I’m passionate about connecting atomic-scale simulations and quantum physics m
 <div class="feature__wrapper">
   <div class="feature__item">
     <h3><a href="/about/">About Me →</a></h3>
-    <p>Learn about my background, interests, and hobbies like climbing and travel.</p>
+    <p>
+      Academic background, <br>
+      research interests, <br>
+      and hobbies beyond work.
+    </p>
   </div>
 
   <div class="feature__item">
     <h3><a href="/research/">Research →</a></h3>
-    <p>Explore my projects on Kagome lattices, SiKL, and NbSe₂ strain dynamics.</p>
+    <p>
+      2D and 1D materials, <br>
+      spin transport, <br>
+      and machine learning modeling.
+    </p>
   </div>
 
   <div class="feature__item">
     <h3><a href="/posters/">Posters →</a></h3>
-    <p>View my research posters presented at conferences.</p>
+    <p>
+      Selected conference <br>
+      posters and presentations.
+    </p>
   </div>
 </div>
+
 
 
