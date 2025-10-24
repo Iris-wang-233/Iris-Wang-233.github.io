@@ -41,16 +41,17 @@ This experience gave me a solid background of manufactring and how lab data test
 I’m passionate about connecting atomic-scale simulations and quantum physics models with real-world applications and devices, especially for semiconductors and spintronic devices to*batteries and next-generation new energy material, bridging theoretic models, computations, and experiments.
 
 ---
-
 <div class="feature__wrapper">
   <div class="feature__item">
     <h3><a href="/about/">About Me →</a></h3>
     <p>Learn about my background, interests, and hobbies like climbing and travel.</p>
   </div>
+
   <div class="feature__item">
     <h3><a href="/research/">Research →</a></h3>
     <p>Explore my projects on Kagome lattices, SiKL, and NbSe₂ strain dynamics.</p>
   </div>
+
   <div class="feature__item">
     <h3><a href="/posters/">Posters →</a></h3>
     <p>View my research posters presented at conferences.</p>
