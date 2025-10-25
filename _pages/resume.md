@@ -66,6 +66,5 @@ classes: wide
 </style>
 
 ### Contact
-wchy_nt@outlook.com 
-Department of Materials Science & Engineering, UCLA
+wchy_nt@outlook.com | Department of Materials Science & Engineering, UCLA
 
