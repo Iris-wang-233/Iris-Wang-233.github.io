@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: false
 ---
 
-📧 **Email:** wchy97@g.ucla.edu  
+📧 **Email:** wchy_nt@outlook.com; wchy97@g.ucla.edu  
 
 💻 **GitHub:** [Iris-wang-233](https://github.com/Iris-wang-233)  
 
