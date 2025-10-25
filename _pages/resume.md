@@ -6,12 +6,12 @@ author_profile: true
 classes: wide
 ---
 
-<a href="/files/Chenhaoyue_Wang_Resume.pdf" download class="resume-download">
+<a href="/files/Chenhaoyue_Wang_resume.pdf" download class="resume-download">
 ⬇️ Download Resume (PDF)
 </a>
 
 <div class="resume-frame">
-  <iframe src="/files/Chenhaoyue_Wang_Resume.pdf"
+  <iframe src="/files/Chenhaoyue_Wang_resume.pdf"
           width="100%"
           height="1000px"
           frameborder="0"></iframe>
