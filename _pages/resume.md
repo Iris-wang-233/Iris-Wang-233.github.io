@@ -5,12 +5,12 @@ permalink: /resume/
 author_profile: true
 ---
 
-<a href="/files/Chenhaoyue_Wang_Resume.pdf" download
+<a href="/files/Chenhaoyue_Wang_resume.pdf" download
    class="resume-download">
    ⬇️ Download Resume (PDF)
 </a>
 
-<iframe src="/files/Chenhaoyue_Wang_Resume.pdf"
+<iframe src="/files/Chenhaoyue_Wang_resume.pdf"
         width="100%" height="1000px"
         style="border:none;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.1);margin-top:1.5rem;">
 </iframe>
