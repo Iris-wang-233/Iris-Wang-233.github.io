@@ -43,19 +43,20 @@ I’m passionate about connecting atomic-scale simulations and quantum physics m
 <div class="feature__wrapper">
   <div class="feature__item card--about">
     <h3><a href="/about/">About Me →</a></h3>
-    <p>Academic background,<br>research interests,<br>and hobbies beyond work.</p>
+    <p>Academic background, research interests, and hobbies beyond work.</p>
   </div>
 
   <div class="feature__item card--research">
     <h3><a href="/research/">Research →</a></h3>
-    <p>2D and 1D materials,<br>spin transport,<br>and machine learning modeling.</p>
+    <p>2D and 1D materials, spin transport, and machine learning modeling.</p>
   </div>
 
   <div class="feature__item card--posters">
     <h3><a href="/posters/">Posters →</a></h3>
-    <p>Selected conference<br>posters and presentations.</p>
+    <p>Selected conference posters and presentations.</p>
   </div>
 </div>
+
 
 
 
