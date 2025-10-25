@@ -48,51 +48,82 @@ a:hover {
   font-weight: 600;
 }
 
-/* Wrapper uses GRID so each card has a fixed column */
-.feature__wrapper{
-  display: grid;
-  grid-template-columns: repeat(3, 340px); /* exact card width */
-  justify-content: center;                 /* center the set */
-  gap: 12px;                               /* spacing between cards */
-  max-width: 1100px;                       /* unchanged total cap */
+/* =========================
+   Wrapper layout
+   ========================= */
+.feature__wrapper {
+  display: flex;
+  flex-direction: column;      /* stack cards vertically like poster layout */
+  gap: 1.2rem;                 /* space between cards */
+  max-width: 900px;            /* centered column */
   margin: 2.5rem auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-
-/* Cards */
-.feature__item{
-  background:#FFF8E1;
-  border-radius:14px;
-  /* inside width feel */
-  box-shadow:0 3px 8px rgba(0,0,0,.08);
-  text-align:center;
-  min-height:90px;
-  box-sizing:border-box;
-  position:relative;       /* safe hover */
-  transition:transform .25s ease, box-shadow .25s ease, background .25s ease;
-}
-.feature__item h3 a{ color:#8B0000; font-weight:700; font-size:1.05rem; }
-.feature__item p{ color:#1D1D1D; font-size:.92rem; line-height:1.5; margin-top:.5rem; }
-.feature__item:hover{ transform:translateY(-4px); box-shadow:0 6px 14px rgba(0,0,0,.14); background:#8B0000; }
-.feature__item:hover h3 a, .feature__item:hover p{ color:#fff; }
-
-/* Explicit positions (desktop) */
-.card--about   { grid-column: 1; }
-.card--research{ grid-column: 2; }
-.card--posters { grid-column: 3; }
-
-/* Tablet: 2 per row (About | Research) on first row, Posters below */
-@media (max-width: 900px){
-  .feature__wrapper{ grid-template-columns: repeat(2, minmax(240px, 1fr)); }
-  .card--about   { grid-column: 1; }
-  .card--research{ grid-column: 2; }
-  .card--posters { grid-column: 3; } /* full-width row */
+/* =========================
+   Individual cards
+   ========================= */
+.feature__item {
+  display: flex;                      /* title left, link right */
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF8E1;                /* same yellow background */
+  border-radius: 14px;
+  padding: 1.25rem 1.75rem;           /* consistent padding */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+  text-align: left;                   /* text alignment */
 }
 
-/* Mobile: 1 per row */
-@media (max-width: 600px){
-  .feature__wrapper{ grid-template-columns: 1fr; }
-  .card--about, .card--research, .card--posters { grid-column: 1; }
+/* Hover effect same as poster cards */
+.feature__item:hover {
+  background-color: #8B0000;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
 
-.feature__item{ padding: 1.25rem 1.75rem; }
+/* Title link (left side) */
+.feature__item h3 a {
+  color: #1A1A1A;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Paragraph text below title (optional small block) */
+.feature__item p {
+  color: #1A1A1A;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 0.4rem;
+}
+
+/* Hover text color */
+.feature__item:hover h3 a,
+.feature__item:hover p {
+  color: #fff;
+}
+
+/* Add optional right arrow */
+.feature__item::after {
+  content: "→";
+  color: #8B0000;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+/* Hover arrow color turns white */
+.feature__item:hover::after {
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .feature__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
