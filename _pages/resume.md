@@ -6,28 +6,39 @@ author_profile: true
 ---
 
 <a href="/files/Chenhaoyue_Wang_Resume.pdf" download
-   style="background-color:#8B0000;color:#fff;padding:0.6rem 1.2rem;border-radius:8px;
-          text-decoration:none;font-weight:600;display:inline-block;margin-bottom:1rem;">
-   Download Resume (PDF)
+   class="resume-download">
+   ⬇️ Download Resume (PDF)
 </a>
 
-<iframe src="/assets/files/Chenhaoyue_Wang_Resume.pdf"
+<iframe src="/files/Chenhaoyue_Wang_Resume.pdf"
         width="100%" height="1000px"
-        style="border:none;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.1);"></iframe>
+        style="border:none;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,0.1);margin-top:1.5rem;">
+</iframe>
 
 ### Contact
-wchy97@g.ucla.edu  
+wchy_nt@outlook.com 
 Department of Materials Science & Engineering, UCLA
 
 <style>
-.page__content iframe {
-  display:block;
-  margin:1rem auto;
-  border-radius:12px;
-  box-shadow:0 2px 14px rgba(0,0,0,0.12);
+.resume-download {
+  display: block;
+  text-align: center;
+  background-color: #8B0000;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  max-width: 300px;
+  margin: 1rem auto 0 auto;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.resume-download:hover {
+  background-color: #a52a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 </style>
 
-### Contact
-wchy97@g.ucla.edu  
-Department of Materials Science & Engineering, UCLA
