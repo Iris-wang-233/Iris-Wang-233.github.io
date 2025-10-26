@@ -48,83 +48,51 @@ a:hover {
   font-weight: 600;
 }
 
-/* ====== Wrapper: single column, aligned left ====== */
 .feature__wrapper {
   display: flex;
-  flex-direction: column;   /* stack vertically */
-  align-items: flex-start;  /* left-align all cards */
-  gap: 1.2rem;              /* even spacing between cards */
-  max-width: 700px;         /* card width */
-  margin: 2.5rem auto 2rem auto; /* center block in page */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  max-width: 700px;
+  margin: 2.5rem auto;
   padding: 0 1rem;
   box-sizing: border-box;
 }
 
-/* ====== Individual cards ====== */
 .feature__item {
-  display: flex;
-  justify-content: space-between; /* title/arrow at ends */
-  align-items: center;
-  width: 100%;
   background: #FFF8E1;
   border-radius: 14px;
   padding: 1.25rem 1.75rem;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.25s ease;
+  width: 100%;
   text-align: left;
-  box-sizing: border-box;
 }
 
-/* Hover effect */
 .feature__item:hover {
   background-color: #8B0000;
   transform: translateY(-3px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-/* ====== Text formatting ====== */
 .feature__item h3 a {
-  color: #1A1A1A;
+  color: #8B0000;
   font-weight: 700;
   font-size: 1.05rem;
   text-decoration: none;
+}
+
+.feature__item:hover h3 a,
+.feature__item:hover p {
+  color: #fff;
 }
 
 .feature__item p {
   color: #1D1D1D;
   font-size: 0.9rem;
   line-height: 1.5;
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
 }
 
-/* Hover text turns white */
-.feature__item:hover h3 a,
-.feature__item:hover p {
-  color: #fff;
-}
-
-/* ====== Arrow styling ====== */
-.feature__item::after {
-  content: "→";
-  color: #8B0000;
-  font-weight: 700;
-  font-size: 1.1rem;
-  transition: color 0.2s ease;
-}
-
-.feature__item:hover::after {
-  color: #fff;
-}
-
-/* ====== Responsive (mobile) ====== */
-@media (max-width: 600px) {
-  .feature__wrapper {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-  .feature__item {
-    padding: 1rem 1.25rem;
-  }
-}
 
 
