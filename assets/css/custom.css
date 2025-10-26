@@ -94,5 +94,32 @@ a:hover {
   margin-top: 0.4rem;
 }
 
+<style>
+/* Remove gray background and padding around content */
+.page__content {
+  background: #ffffff !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  box-shadow: none !important;
+}
+
+/* Remove inherited margins around PDF containers */
+iframe {
+  display: block;
+  background: #ffffff !important;
+  margin: 0 auto !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Optional: remove rounded corners or top shadows from the theme */
+article.page {
+  background: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+</style>
+
+
 
 
