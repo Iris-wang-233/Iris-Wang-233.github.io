@@ -6,85 +6,20 @@ author_profile: true
 classes: wide
 ---
 
-### Selected Posters
+### Poster Gallery
 
-<div class="poster-list">
+<div class="poster-gallery">
 
-  <div class="poster-card">
-    <div class="poster-title">
-      <a href="/files/Solid_state.pdf" target="_blank">Electronic and Mechanical Property of Silicon Kagome Lattices</a>
-    </div>
-    <a class="poster-link" href="/files/Solid_state.pdf" target="_blank">View PDF →</a>
-  </div>
+#### Electronic and Mechanical Property of Silicon Kagome Lattices
+<iframe src="/files/Solid_state.pdf" width="100%" height="800px" style="border:none;box-shadow:0 2px 12px rgba(0,0,0,0.15);border-radius:10px;"></iframe>
 
-  <div class="poster-card">
-    <div class="poster-title">
-      <a href="/files/Li_ion_1.pdf" target="_blank">Battery Design of Graphene Shell in Lithium Ion Battery</a>
-    </div>
-    <a class="poster-link" href="/files/Li_ion_1.pdf" target="_blank">View PDF →</a>
-  </div>
+#### Battery Design of Graphene Shell in Lithium Ion Battery
+<iframe src="/files/Li_ion_1.pdf" width="100%" height="800px" style="border:none;box-shadow:0 2px 12px rgba(0,0,0,0.15);border-radius:10px;"></iframe>
 
-  <div class="poster-card">
-    <div class="poster-title">
-      <a href="/files/Li_ion_2.pdf" target="_blank">Size Engineering of Graphene Shells by Template CVD Method</a>
-    </div>
-    <a class="poster-link" href="/files/Li_ion_2.pdf" target="_blank">View PDF →</a>
-  </div>
+#### Size Engineering of Graphene Shells by Template CVD Method
+<iframe src="/files/Li_ion_2.pdf" width="100%" height="800px" style="border:none;box-shadow:0 2px 12px rgba(0,0,0,0.15);border-radius:10px;"></iframe>
 
 </div>
 
-<style>
-.poster-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 900px;
-  margin: 2rem auto;
-}
-
-/* Card container */
-.poster-card {
-  background-color: #FFF8E1;
-  border-radius: 12px;
-  padding: 1rem 1.25rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-}
-
-/* Title and link text */
-.poster-title a {
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.4;
-}
-
-/* The "View PDF →" link */
-.poster-link {
-  white-space: nowrap; /* ✅ keeps "View PDF →" on one line */
-  text-decoration: none;
-  color: #8B0000;
-  font-weight: 600;
-  font-size: 0.95rem;
-  transition: color 0.2s ease;
-}
-
-/* Hover state — both title and link text turn white */
-.poster-card:hover {
-  background-color: #8B0000;
-  color: #fff;
-  transform: translateY(-3px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-.poster-card:hover .poster-title a,
-.poster-card:hover .poster-link {
-  color: #fff;
-}
-</style>
 
 
